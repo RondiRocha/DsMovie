@@ -1,5 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 *{
+
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+  
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+:root {
+    --bg-gray:#ddd;
+}
+
+html, body {
+    background-color: #DDD;
+}
+
+header {
+    background-color: #4D41C0;
+    color: #FFF;
+    width: auto;
+    height: 60px;
+    top: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav h1 {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 700;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+  
+}
+
+header a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+.dsmovie-contact-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.dsmovie-contact-container img{
+    margin-right: 10px;
+
 }
