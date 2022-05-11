@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-*{
+* {
 
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-  
+
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
 
 
-html, body ,main{
-    background-color: #717171;
+html,
+body,
+main {
+    background-color: #b8b3b3;
 }
 
 header {
@@ -45,21 +50,22 @@ nav h1 {
 nav a {
     font-size: 12px;
     font-weight: 400;
-  
+
 }
 
-header a, a:hover {
+header a,
+a:hover {
     color: unset;
     text-decoration: none;
 }
 
-.dsmovie-contact-container{
+.dsmovie-contact-container {
     display: flex;
     align-items: center;
 
 }
 
-.dsmovie-contact-container img{
+.dsmovie-contact-container img {
     margin-right: 10px;
 
 }
@@ -68,10 +74,10 @@ header a, a:hover {
 .dsmovie-card {
 
     width: 100%;
-    
+
 }
 
-#dsmovie-card-list{
+#dsmovie-card-list {
     padding: 40px;
 
 }
@@ -79,10 +85,10 @@ header a, a:hover {
 .dsmovie-card img {
     width: 100%;
     border-radius: 8px 8px 0 0;
-    
+
 }
 
-.dsmovie-card-description{
+.dsmovie-card-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -99,7 +105,8 @@ header a, a:hover {
     margin-bottom: 25px;
 }
 
-.dsmovie-btn, .dsmovie-btn:hover {
+.dsmovie-btn,
+.dsmovie-btn:hover {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,6 +120,22 @@ header a, a:hover {
     background-color: #4D41C0;
     color: #FFF;
     text-decoration: none;
-    
+
 }
+
+
+
+
+.dsmovie-form-container {
+
+    padding: 40px 0;
+   max-width: 480px;
+
+
+
+}
+
+
+
+
 
