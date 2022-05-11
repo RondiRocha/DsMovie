@@ -14,7 +14,7 @@ h1,h2,h3,h4 {
 
 
 
-html, body {
+html, body ,main{
     background-color: #717171;
 }
 
@@ -67,8 +67,8 @@ header a, a:hover {
 
 .dsmovie-card {
 
-    width: 360px;
-    background-color: #FFF;
+    width: 100%;
+    
 }
 
 #dsmovie-card-list{
@@ -88,6 +88,7 @@ header a, a:hover {
     align-items: center;
     padding: 10px 0 20px 0;
     border-radius: 0 0 8px 8px;
+    background-color: #FFF;
 }
 
 .dsmovie-card-description h3 {
