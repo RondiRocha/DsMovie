@@ -85,6 +85,7 @@ header a, a:hover {
 .dsmovie-card-description{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0 20px 0;
     border-radius: 0 0 8px 8px;
