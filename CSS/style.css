@@ -77,7 +77,7 @@ a:hover {
 }
 
 #dsmovie-card-list {
-    padding: 40px;
+    padding: 0 10px;
 
 }
 
@@ -240,5 +240,52 @@ a:hover {
 
 
 }
+
+
+
+.dsmovie-pagination-container{
+
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box{
+
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.dsmovie-pagination-box p{
+    margin: 0;
+    font-size: 12px;
+    color: #4D41C0;
+    font-weight: 400;
+   
+}
+
+
+.dsmovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #4D41C0;
+    border-radius: 4px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dsmovie-pagination-box button:disabled{
+
+    border: 1px solid #d3d3d3;
+}
+
+
 
 
